@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className="navbar w-full">
+    <nav className="navbar w-full" data-testid="navbar">
       <div className="flex flex-1 md:gap-1 lg:gap-2">
         <div className="bg-base-100 sticky top-0 z-20 hidden items-center gap-2 bg-opacity-90 px-4 py-2 backdrop-blur lg:flex">
           <a className="flex-0 btn btn-ghost px-2" href="/" aria-label="Homepage">
